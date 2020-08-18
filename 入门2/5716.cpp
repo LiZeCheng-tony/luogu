@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 int main() {
     int a, b;
@@ -6,7 +7,7 @@ int main() {
     if (a % 100 == 0) {
         if (a % 400 == 0) {
             if (b == 2) {
-                cout << 29;
+	      cout << 29;
                 return 0;
             } else if (b == 1 | b == 3 | b == 5 | b == 7 | b == 8 | b == 10 |
                        b == 12) {
