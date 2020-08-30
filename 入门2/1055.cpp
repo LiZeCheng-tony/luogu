@@ -6,9 +6,8 @@
 # Last modified: 2020-08-16 20:55
 =============================================================================*/
 #include <stdio.h>
-
-#include <cstring>
 #include <iostream>
+#include <cstring>
 using namespace std;
 int main() {
     char s[14], c;
